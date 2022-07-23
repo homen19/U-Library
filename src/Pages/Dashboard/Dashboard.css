@@ -1,0 +1,35 @@
+
+.nav{
+    /* border: 1px solid red; */
+    height: 70px;
+    background-color: #1266F1;
+    padding: 20px 30px;
+}
+.leftHead{
+   
+    height: 70px;
+    background-color: #1266F1;
+    color: #fff;
+}
+.profile{
+    border: 1px solid black;
+    height: 80px;
+    padding: 10px 20px;
+    background-color: #242B2E;
+    color: #fff;
+}
+.profile .dp{
+    height: 60px;
+    width: 60px;
+}
+.profile .name{
+    width: 130px;
+    /* border: 1px solid green; */
+    margin-left: 10px;
+}
+.profile .name .Online{
+    position: relative;
+    top: -15px;
+    left: -14px;
+    font-weight: 600;
+}
