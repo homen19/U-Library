@@ -3,6 +3,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import './Dashboard.css';
 import download from '../../Assets/Images/abc.png';
 import CircleIcon from '@mui/icons-material/Circle';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
+import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import SettingsIcon from '@mui/icons-material/Settings';
 export const Dashboard = () => {
     return (
         <div>
@@ -28,6 +37,30 @@ export const Dashboard = () => {
                                 </div>
                             </div>
                             <div className="col handler">
+                                <div className="first">
+                                    <h6><DashboardIcon fontSize='small' /> Dashboard</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><PeopleOutlineIcon fontSize='small' /> Members</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><LibraryBooksIcon fontSize='small' /> Books</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><MenuBookIcon fontSize='small' /> Megazine</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><ArrowCircleRightOutlinedIcon fontSize='small' /> Issued</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><ReplyOutlinedIcon fontSize='small' /> Returned</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><AccessTimeIcon fontSize='small' /> Not Return</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><SettingsIcon fontSize='small' /> Settings</h6>
+                                </div>
 
                             </div>
 
