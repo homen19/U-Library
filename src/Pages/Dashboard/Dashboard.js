@@ -12,6 +12,7 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SettingsIcon from '@mui/icons-material/Settings';
+import StatusBar from './Components/StatusBar/StatusBar';
 export const Dashboard = () => {
     return (
         <div>
@@ -22,7 +23,7 @@ export const Dashboard = () => {
                         <div className="row block">
                             {/* -------logo----- */}
                             <div className="col-md-12 leftHead">
-                                <a className="navbar-brand" href="#" style={{ fontSize: '30pt' }}><span style={{ fontWeight: '700' }}>U-L</span><span style={{ fontSize: '18pt', fontWeight: '600' }}>ibrary</span></a><h1></h1>
+                                <a className="navbar-brand" href="#" style={{ fontSize: '30pt' }}><span style={{ fontWeight: '700' }}>U-L</span><span style={{ fontSize: '18pt', fontWeight: '600' }}>ibrary</span></a>
 
                             </div>
 
@@ -37,8 +38,8 @@ export const Dashboard = () => {
                                 </div>
                             </div>
                             <div className="col handler">
-                                <div className="first">
-                                    <h6><DashboardIcon fontSize='small' /> Dashboard</h6>
+                                <div className="first" style={{ backgroundColor: '#fff' }}>
+                                    <h6 style={{ color: '#D23535' }} ><DashboardIcon fontSize='small' /> Dashboard</h6>
                                 </div>
                                 <div className="first">
                                     <h6><PeopleOutlineIcon fontSize='small' /> Members</h6>
@@ -48,6 +49,9 @@ export const Dashboard = () => {
                                 </div>
                                 <div className="first">
                                     <h6><MenuBookIcon fontSize='small' /> Megazine</h6>
+                                </div>
+                                <div className="first">
+                                    <h6><NewspaperIcon fontSize='small' /> News Paper</h6>
                                 </div>
                                 <div className="first">
                                     <h6><ArrowCircleRightOutlinedIcon fontSize='small' /> Issued</h6>
@@ -69,9 +73,16 @@ export const Dashboard = () => {
                     {/* -------------Second Column-------------- */}
                     <div className="col-md-10" style={{ height: '100vh' }}>
                         <div className="row">
-                            <div className="col nav">
+                            {/* --------Dashboard Nav-------- */}
+                            <div className="col-md-12 nav">
                                 <MenuIcon fontSize='large' style={{ color: '#fff' }} />
                             </div>
+                            {/* ----------Dashboard Heading----------- */}
+                            <div className="col-md-12 headDashMain">
+                                <h4><span className='headDash'>U-L</span>ibrary <span style={{ opacity: '0.9' }}>Control Panel</span></h4>
+                            </div>
+                            {/* ------Status Bar---- */}
+                            <StatusBar />
                         </div>
                     </div>
                 </div>

@@ -50,5 +50,16 @@
     /* border-bottom: 1px solid #fff; */
     color: #fff;
     text-align: left;
-    padding: 10px 30px;
+    padding: 10px 55px;
+}
+.headDashMain{
+    /* border: 1px solid red; */
+    text-align: left;
+    padding-left: 30px;
+}
+
+.headDash{
+    font-weight: 700;
+    text-align: left;
+    font-size: 30pt;
 }
