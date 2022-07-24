@@ -9,7 +9,7 @@ export const Dashboard = () => {
             <div className="container-fluid">
                 <div className="row">
                     {/* ---------First column--------- */}
-                    <div className="col-md-2" style={{ height: '100vh', borderRight: '1px solid green' }}>
+                    <div className="col-md-2" style={{ height: '100vh', borderRight: '2px solid black' }}>
                         <div className="row block">
                             {/* -------logo----- */}
                             <div className="col-md-12 leftHead">
@@ -24,9 +24,13 @@ export const Dashboard = () => {
                                 </div>
                                 <div className="name">
                                     <p><b>Homen Nath</b> </p>
-                                    <p className='Online'> <CircleIcon fontSize='small'style={{color:'green'}}/> Online</p>
+                                    <p className='Online'> <CircleIcon fontSize='small' style={{ color: 'green' }} /> Online</p>
                                 </div>
                             </div>
+                            <div className="col handler">
+
+                            </div>
+
                         </div>
                     </div>
                     {/* -------------Second Column-------------- */}
