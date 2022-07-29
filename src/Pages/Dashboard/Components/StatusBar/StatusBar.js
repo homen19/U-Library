@@ -1,14 +1,15 @@
 import React from 'react'
-import './StatusBar.css';
+import './Statusbar.css';
 import book from '../../../../Assets/Icons/book.png';
 import member from '../../../../Assets/Icons/students-cap.png';
 import back from '../../../../Assets/Icons/back.png';
 import share from '../../../../Assets/Icons/share.png';
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
-const StatusBar = () => {
+
+export const Statusbar = () => {
   return (
     <div>
-      <div className="container">
+        <div className="container">
         <div className="row my-4 statusRow" style={{ justifyContent: 'space-between', padding: '0 30px' }}>
           {/* ------------first card--- */}
 
@@ -67,5 +68,3 @@ const StatusBar = () => {
     </div>
   )
 }
-
-export default StatusBar

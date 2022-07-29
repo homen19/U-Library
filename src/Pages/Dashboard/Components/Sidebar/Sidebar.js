@@ -1,5 +1,6 @@
 import React from 'react'
-import './Dash.css';
+import './Sidebar.css';
+
 import download from '../../../../Assets/Images/abc.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DashboardIcon from '@mui/icons-material/Dashboard';
@@ -11,10 +12,11 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SettingsIcon from '@mui/icons-material/Settings';
-export const Dash = () => {
+
+export const Sidebar = () => {
   return (
-    <div>
-        <div className="row block">
+    <div className='container-fluid'>
+      <div className="row block">
                             {/* -------logo----- */}
                             <div className="col-md-12 leftHead">
                                 <a className="navbar-brand" href="#" style={{ fontSize: '30pt' }}><span style={{ fontWeight: '700' }}>U-L</span><span style={{ fontSize: '18pt', fontWeight: '600' }}>ibrary</span></a>
@@ -63,6 +65,7 @@ export const Dash = () => {
                             </div>
 
                         </div>
+
     </div>
   )
 }
