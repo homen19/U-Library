@@ -1,0 +1,19 @@
+.displayArea{
+    height: 69vh;
+    /* border: 1px solid red; */
+    
+}
+.displayArea h1{
+    font-weight: 650;
+    opacity: 0.9;
+}
+.firstRow{
+    height: 50px;
+    border: 1px solid green;
+    
+}
+
+
+.searchBar button{
+    color: #fff;font-weight: 600;
+}

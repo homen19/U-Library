@@ -1,7 +1,8 @@
 import React from 'react'
-import { Header } from '../Components/Header/Header'
-import { Sidebar } from '../Components/Sidebar/Sidebar'
-import { Statusbar } from '../Components/StatusBar/Statusbar'
+import { Header } from '../Components/Header/Header';
+import { Sidebar } from '../Components/Sidebar/Sidebar';
+import { Statusbar } from '../Components/StatusBar/Statusbar';
+import { Outlet } from 'react-router-dom';
 
 export const Landing = () => {
   return (
@@ -14,6 +15,7 @@ export const Landing = () => {
                 <div className="row">
                     <Header />
                     <Statusbar />
+                    <Outlet />
                 </div>
             </div>
         </div>
