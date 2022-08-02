@@ -35,14 +35,14 @@ export const Sidebar = () => {
                                 </div>
                             </div>
                             <div className="col handler">
-                                <div className="first" style={{ backgroundColor: '#fff' }}>
-                                    <Link to="/dashboard" ><h6 style={{ color: '#D23535' }} ><DashboardIcon fontSize='small' /> Dashboard</h6></Link>
+                                <div className="first">
+                                    <Link className='text-decoration-none text-light' to="/dashboard" ><h6><DashboardIcon fontSize='small' /> Dashboard</h6></Link>
                                 </div>
                                 <div className="first">
-                                    <Link to="/dashboard/members"><h6><PeopleOutlineIcon fontSize='small' /> Members</h6></Link>
+                                    <Link className='text-decoration-none text-light'  to="/dashboard/members"><h6><PeopleOutlineIcon fontSize='small' /> Members</h6></Link>
                                 </div>
                                 <div className="first">
-                                    <Link to="/dashboard/books" ><h6><LibraryBooksIcon fontSize='small' /> Books</h6></Link>
+                                    <Link className='text-decoration-none text-light'  to="/dashboard/books" ><h6><LibraryBooksIcon fontSize='small' /> Books</h6></Link>
                                 </div>
                                 <div className="first">
                                     <h6><MenuBookIcon fontSize='small' /> Megazine</h6>

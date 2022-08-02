@@ -45,3 +45,7 @@
     text-align: left;
     padding: 10px 55px;
 }
+.handler :hover{
+    color: red;
+    
+}
