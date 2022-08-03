@@ -31,8 +31,8 @@ function App() {
             <Route path='members' element={<Member />}>
               <Route path='details' element= {<Table /> } />
               <Route path='register-member' element= {<Register /> } />
-              <Route path='book-update' element= {<Update /> } />
-              <Route path='book-record' element= {<Record /> } />
+              <Route path='member-update' element= {<Update /> } />
+              <Route path='member-record' element= {<Record /> } />
             </Route>
             <Route path='books' element={<Books />} />
         </Route>
