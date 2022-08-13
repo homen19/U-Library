@@ -1,0 +1,88 @@
+.main3{
+    height: 300px;
+    padding: 3px 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.pic1{
+    position: relative;
+    top: -25px;
+    height: 150px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+.pic1 .image-part{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    /* border: 2px solid green; */
+    
+}
+.image-part img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.names{
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.names h5{
+    font-weight: 650;
+}
+.names h6{
+    font-weight: 650;
+}
+
+
+.pic2{
+    position: relative;
+    top: -25px;
+    height: 200px;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.pic2 .data{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid blue; */
+    font-weight: 600;
+}
+.pic2 .data ul{
+    position: relative;
+    top: -20px;
+    left: 40px;
+    
+}
+.pic2 .data ul li{
+    list-style: none;
+    font-size: 10pt;
+    font-weight: 600;
+
+}
+.pic2 .btn2{
+    /* border: 1px solid black; */
+    text-align: right;
+}
+.pic2 .btn2 .btn{
+    width: 130px;
+}
+
+.buttom{
+    height: 50px;
+    /* border: 1px solid red; */
+}
+.buttom button{
+    width: 170px;
+    color: #fff;
+    font-weight: 600;
+}
